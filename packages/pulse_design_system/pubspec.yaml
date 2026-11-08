@@ -1,0 +1,16 @@
+name: pulse_design_system
+description: "Pulse design system: tokens (Material 3 based), themes and presentational widgets. Independent of the app."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
