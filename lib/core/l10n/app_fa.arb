@@ -1,0 +1,306 @@
+{
+  "@@locale": "fa",
+  "appTitle": "پالس",
+  "actionRetry": "تلاش دوباره",
+  "actionAdd": "افزودن",
+  "navWatchlist": "کیف پول",
+  "homeTitle": "کیف پول من",
+  "chaosSwitchTooltip": "دمو: شبکهٔ طوفانی (قطعی، تأخیر و خطا) را روشن یا خاموش کنید",
+  "homeTabHoldings": "دارایی‌های من",
+  "homeTabWatchlist": "پیگیری",
+  "holdingsHint": "این‌ها دارایی واقعی شماست.",
+  "watchlistHint": "این نمادها را فقط دنبال می‌کنید؛ دارایی شما نیستند. برای حذف، ردیف را بکشید.",
+  "holdingsEmptyTitle": "هنوز دارایی‌ای ندارید",
+  "holdingsEmptyBody": "از تب «پیگیری» یک نماد را باز کنید و اولین خریدتان را ثبت کنید.",
+  "holdingsAssetEmpty": "در این دسته دارایی‌ای ندارید.",
+  "holdingsEmptyAction": "رفتن به پیگیری",
+  "balanceStatCash": "نقد",
+  "balanceStatAssets": "دارایی‌ها",
+  "balanceStatSellNow": "فروش فوری",
+  "navOrders": "سفارش‌ها",
+  "ordersTitle": "سفارش‌ها",
+  "orderFilterAll": "همه",
+  "orderFilterFilled": "انجام‌شده",
+  "orderFilterPending": "در حال بررسی",
+  "orderFilterWorking": "در صف",
+  "orderFilterRejected": "ردشده",
+  "orderFilterCancelled": "لغوشده",
+  "orderStatusFilled": "انجام‌شده",
+  "orderStatusPending": "در حال بررسی",
+  "orderStatusWorking": "در صف",
+  "orderStatusRejected": "ردشده",
+  "orderStatusCancelled": "لغوشده",
+  "orderStatusUnknown": "نامشخص",
+  "ordersEmptyTitle": "هنوز سفارشی ثبت نشده",
+  "ordersEmptyBody": "بعد از ثبت اولین سفارش، اینجا دیده می‌شود.",
+  "ordersEmptyFilteredTitle": "سفارشی در این دسته نیست",
+  "ordersEmptyFilteredBody": "دسته دیگری را انتخاب کنید یا همه را ببینید.",
+  "ordersLoadFailedTitle": "سفارش‌ها بارگذاری نشد",
+  "orderSideType": "{side} · {type}",
+  "@orderSideType": {
+    "placeholders": {
+      "side": {"type": "String"},
+      "type": {"type": "String"}
+    }
+  },
+  "orderQuantityLine": "تعداد: {quantity} {unit}",
+  "@orderQuantityLine": {
+    "placeholders": {
+      "quantity": {"type": "String"},
+      "unit": {"type": "String"}
+    }
+  },
+  "orderFilterStatusLabel": "وضعیت",
+  "orderFilterAssetLabel": "نوع دارایی",
+  "assetAll": "همه دارایی‌ها",
+  "assetStock": "سهام",
+  "assetCrypto": "کریپتو",
+  "orderRejectedReasonUnknown": "سرور سفارش را نپذیرفت.",
+  "orderLimitPrice": "قیمت حدی: {price}",
+  "@orderLimitPrice": {
+    "placeholders": {
+      "price": {"type": "String"}
+    }
+  },
+  "orderFilledAt": "میانگین قیمت اجرا: {price}",
+  "@orderFilledAt": {
+    "placeholders": {
+      "price": {"type": "String"}
+    }
+  },
+  "navSearchAdd": "جستجو و افزودن",
+  "unitShare": "سهم",
+  "actionEdit": "ویرایش",
+  "actionDone": "تمام",
+  "actionRemove": "حذف از فهرست",
+  "actionClose": "بستن",
+  "actionDismiss": "متوجه شدم",
+  "actionMoreInfo": "اطلاعات بیشتر",
+  "actionCheckOrderStatus": "بررسی وضعیت سفارش",
+  "actionBackToList": "بازگشت به فهرست",
+  "loadingLabel": "در حال بارگذاری",
+  "haltedBadge": "متوقف",
+  "haltedPriceNote": "قیمت پایانی قبلی",
+  "staleBadge": "قدیمی",
+  "watchlistTitle": "پیگیری قیمت‌ها",
+  "watchlistEmptyTitle": "فهرست پیگیری خالی است",
+  "watchlistEmptyBody": "برای شروع، از «جستجو و افزودن» در پایین صفحه نماد اضافه کنید.",
+  "watchlistLoadFailedTitle": "فهرست بارگذاری نشد",
+  "watchlistSaveRolledBack": "تغییرات ذخیره نشد و فهرست به آخرین حالت ذخیره‌شده برگشت.",
+  "watchlistReorderHandle": "جابه‌جایی {symbol}",
+  "@watchlistReorderHandle": {
+    "placeholders": {
+      "symbol": {"type": "String"}
+    }
+  },
+  "feedConnecting": "در حال اتصال به قیمت‌های زنده...",
+  "feedStale": "قیمت‌ها ممکن است قدیمی باشند.",
+  "feedOffline": "اتصال قیمت‌ها قطع است؛ در حال تلاش دوباره.",
+  "feedLastUpdate": "آخرین به‌روزرسانی: {time}",
+  "@feedLastUpdate": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "feedInfoTitle": "وضعیت قیمت‌ها",
+  "feedInfoBody": "قیمت‌ها از یک اتصال زنده می‌رسند. اگر چند ثانیه هیچ پیامی نرسد، قیمت‌ها «قدیمی» علامت می‌خورند و برنامه خودکار دوباره وصل می‌شود. سفارش‌ها همیشه با قیمت لحظه‌ای سرور اجرا می‌شوند و مبلغ‌های نمایش‌داده‌شده فقط تخمینی هستند.",
+  "directionUp": "افزایش",
+  "directionDown": "کاهش",
+  "directionFlat": "بدون تغییر",
+  "rowSemantics": "{symbol}، قیمت {price}، {direction} {change}",
+  "@rowSemantics": {
+    "placeholders": {
+      "symbol": {"type": "String"},
+      "price": {"type": "String"},
+      "direction": {"type": "String"},
+      "change": {"type": "String"}
+    }
+  },
+  "portfolioTitle": "پرتفوی",
+  "portfolioCash": "موجودی نقد",
+  "portfolioMarketValue": "ارزش تقریبی دارایی‌ها",
+  "portfolioSellNow": "ارزش فروش فوری",
+  "portfolioTotal": "مجموع تقریبی",
+  "portfolioApproximate": "برخی قیمت‌ها تقریبی هستند.",
+  "portfolioMissingPrice": "برای برخی دارایی‌ها قیمتی در دسترس نیست.",
+  "portfolioLoadFailed": "پرتفوی بارگذاری نشد.",
+  "portfolioInfoTitle": "ارزش‌گذاری پرتفوی",
+  "portfolioInfoBody": "ارزش تقریبی دارایی‌ها با آخرین قیمت معامله حساب می‌شود. ارزش فروش فوری با بهترین قیمت خریدار حساب می‌شود و اگر همین حالا بفروشید، مبلغ نزدیک به آن خواهد بود. برای نمادهای متوقف یا بدون قیمت زنده، قیمت پایانی قبلی استفاده می‌شود و عدد «تقریبی» است. موجودی نقد همیشه از سرور خوانده می‌شود.",
+  "searchTitle": "جستجوی نماد",
+  "searchHint": "نام یا نماد",
+  "searchPrompt": "برای شروع، نام یا نماد را وارد کنید.",
+  "searchNoResults": "نتیجه‌ای پیدا نشد.",
+  "searchAlreadyAdded": "در فهرست است",
+  "ticketTitle": "ثبت سفارش",
+  "sideBuy": "خرید",
+  "sideSell": "فروش",
+  "typeMarket": "بازار",
+  "typeLimit": "حدی",
+  "quantityLabel": "تعداد",
+  "limitPriceLabel": "قیمت حدی",
+  "estimatedAmount": "مبلغ تخمینی",
+  "estimatedUnavailable": "قیمتی برای تخمین در دسترس نیست.",
+  "costBasisAsk": "بر اساس قیمت فروشنده",
+  "costBasisBid": "بر اساس قیمت خریدار",
+  "costBasisLimit": "بر اساس قیمت حدی",
+  "costBasisLast": "بر اساس آخرین قیمت",
+  "estimateStaleNote": "قیمت قدیمی است؛ مبلغ دقیق نیست.",
+  "submitOrder": "ارسال سفارش",
+  "ticketOfflineBlocked": "تا برقراری دوباره اتصال قیمت‌ها امکان ثبت سفارش نیست.",
+  "validationRequired": "این فیلد الزامی است.",
+  "validationInvalidCharacters": "فقط عدد وارد کنید و برای اعشار از نقطه استفاده کنید.",
+  "validationTooLong": "عدد خیلی طولانی است.",
+  "validationTooPrecise": "تعداد ارقام اعشار زیاد است.",
+  "validationNotPositive": "عدد باید بزرگ‌تر از صفر باشد.",
+  "validationNotMultipleOfLot": "تعداد باید مضرب {step} باشد.",
+  "@validationNotMultipleOfLot": {
+    "placeholders": {
+      "step": {"type": "String"}
+    }
+  },
+  "validationNotMultipleOfTick": "قیمت باید مضرب {step} باشد.",
+  "@validationNotMultipleOfTick": {
+    "placeholders": {
+      "step": {"type": "String"}
+    }
+  },
+  "orderSending": "در حال ارسال سفارش...",
+  "orderChecking": "در حال بررسی سفارش‌های قبلی...",
+  "orderResolving": "پاسخی نرسید؛ وضعیت سفارش در حال بررسی است. لطفاً صبر کنید و سفارش را دوباره ارسال نکنید.",
+  "orderResolvingAttempt": "تلاش شماره {attempt}",
+  "@orderResolvingAttempt": {
+    "placeholders": {
+      "attempt": {"type": "String"}
+    }
+  },
+  "orderUnresolvedTitle": "وضعیت سفارش هنوز مشخص نیست",
+  "orderUnresolvedBody": "ممکن است سفارش اجرا شده باشد. تا مشخص شدن وضعیت، سفارش جدیدی برای این نماد ثبت نکنید.",
+  "orderFilledTitle": "سفارش اجرا شد",
+  "holdingLabel": "موجودی شما: {quantity} {unit}",
+  "@holdingLabel": {
+    "placeholders": {
+      "quantity": {"type": "String"},
+      "unit": {"type": "String"}
+    }
+  },
+  "holdingNone": "موجودی شما: ندارید",
+  "availableToBuy": "قابل خرید: {amount}",
+  "@availableToBuy": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+  "availableToBuyMax": "حداکثر تعداد: {quantity} {unit}",
+  "@availableToBuyMax": {
+    "placeholders": {
+      "quantity": {"type": "String"},
+      "unit": {"type": "String"}
+    }
+  },
+  "availableToSell": "قابل فروش: {quantity} {unit}",
+  "@availableToSell": {
+    "placeholders": {
+      "quantity": {"type": "String"},
+      "unit": {"type": "String"}
+    }
+  },
+  "availableToSellNone": "چیزی برای فروش ندارید.",
+  "actionMax": "حداکثر",
+  "holdingsTitle": "دارایی‌های شما",
+  "holdingsEmpty": "هنوز دارایی‌ای ندارید.",
+  "holdingValue": "حدود {value}",
+  "@holdingValue": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "watchlistAssetEmpty": "در این دسته نمادی ندارید.",
+  "orderFilledBody": "{quantity} {unit} از {symbol} با میانگین قیمت {price} اجرا شد.",
+  "@orderFilledBody": {
+    "placeholders": {
+      "quantity": {"type": "String"},
+      "unit": {"type": "String"},
+      "symbol": {"type": "String"},
+      "price": {"type": "String"}
+    }
+  },
+  "orderWorkingTitle": "سفارش در صف است",
+  "orderWorkingBody": "سفارش ثبت شد و هنوز اجرا نشده است.",
+  "orderRejectedTitle": "سفارش ثبت نشد",
+  "recoveryFilled": "سفارش قبلی {symbol} اجرا شده بود.",
+  "@recoveryFilled": {
+    "placeholders": {
+      "symbol": {"type": "String"}
+    }
+  },
+  "recoveryWorking": "سفارش قبلی {symbol} در صف است.",
+  "@recoveryWorking": {
+    "placeholders": {
+      "symbol": {"type": "String"}
+    }
+  },
+  "recoveryNotExecuted": "سفارش قبلی {symbol} اجرا نشده بود.",
+  "@recoveryNotExecuted": {
+    "placeholders": {
+      "symbol": {"type": "String"}
+    }
+  },
+  "recoveryStillUnresolved": "وضعیت سفارش قبلی {symbol} هنوز نامشخص است.",
+  "@recoveryStillUnresolved": {
+    "placeholders": {
+      "symbol": {"type": "String"}
+    }
+  },
+  "errorServiceUnavailable": "سرویس موقتاً در دسترس نیست. دوباره تلاش می‌کنیم.",
+  "errorTimeout": "پاسخی دریافت نشد. وضعیت در حال بررسی است.",
+  "errorInsufficientFunds": "موجودی کافی نیست.",
+  "errorInsufficientPosition": "مقدار دارایی برای فروش کافی نیست.",
+  "errorTradingHalted": "معامله این نماد متوقف است.",
+  "errorWatchlistFull": "فهرست پیگیری پر است (حداکثر {max} نماد).",
+  "@errorWatchlistFull": {
+    "placeholders": {
+      "max": {"type": "String"}
+    }
+  },
+  "errorUnknownSymbol": "نماد پیدا نشد.",
+  "errorNotFound": "مورد درخواستی پیدا نشد.",
+  "errorInvalidQuantity": "مقدار واردشده معتبر نیست.",
+  "errorInvalidPrice": "قیمت واردشده معتبر نیست.",
+  "errorInvalidRequest": "درخواست نامعتبر است.",
+  "errorIdempotencyConflict": "این سفارش با اطلاعات دیگری قبلاً ثبت شده است.",
+  "errorConnectionLost": "اتصال قطع شد. در حال اتصال دوباره...",
+  "errorParsing": "داده دریافتی قابل پردازش نیست.",
+  "errorStorage": "ذخیره‌سازی روی دستگاه ناموفق بود؛ سفارش ارسال نشد.",
+  "errorValidation": "اطلاعات واردشده معتبر نیست.",
+  "errorDuplicateSymbol": "این نماد قبلاً در فهرست است.",
+  "errorUnknownServer": "خطای ناشناخته از سرور.",
+  "errorUnexpected": "خطای غیرمنتظره رخ داد.",
+  "chartTitle": "نمودار قیمت",
+  "rangeDay": "روز",
+  "rangeWeek": "هفته",
+  "rangeMonth": "ماه",
+  "chartEmpty": "داده‌ای برای نمودار وجود ندارد.",
+  "chartLegend": "شمع توخالی = صعودی، شمع توپر = نزولی",
+  "chartSummary": "نمودار شمعی {symbol}: {count} شمع، پایین‌ترین {low}، بالاترین {high}",
+  "@chartSummary": {
+    "placeholders": {
+      "symbol": {"type": "String"},
+      "count": {"type": "String"},
+      "low": {"type": "String"},
+      "high": {"type": "String"}
+    }
+  },
+  "chartSelected": "{time} · باز {open} · بالا {high} · پایین {low} · بسته {close}",
+  "@chartSelected": {
+    "placeholders": {
+      "time": {"type": "String"},
+      "open": {"type": "String"},
+      "high": {"type": "String"},
+      "low": {"type": "String"},
+      "close": {"type": "String"}
+    }
+  },
+  "selectInstrumentTitle": "یک نماد را انتخاب کنید",
+  "selectInstrumentBody": "برای دیدن نمودار و ثبت سفارش، نماد را از فهرست انتخاب کنید.",
+  "switchBlocked": "تا مشخص شدن وضعیت سفارش جاری، نماد دیگری را انتخاب نکنید."
+}
